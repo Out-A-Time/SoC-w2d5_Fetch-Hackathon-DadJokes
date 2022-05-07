@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Jokes</title>
+  </head>
+  <body>
+    <audio id="audio" controls>
+      <source src="./audio/Elevator-music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <img
+      id="main-img"
+      src="./img/Screenshot 2022-05-06 at 09.59.21.png"
+      alt="Dad Joke Photo"
+    />
+    <h2 class="fading" id="new-dad-joke">dad jokes here</h2>
+    <div id="buttons">
+      <button id="new-joke">New Joke Generator</button>
+      <button id="fav-joke">Add to fav jokes</button>
+    </div>
+    <div>
+      <hr id="line" />
+      <p>Your favourite Dad jokes goes here:</p>
+      <p id="repeated"></p>
+      <ul id="fav-joke-list"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
